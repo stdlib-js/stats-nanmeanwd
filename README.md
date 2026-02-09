@@ -63,6 +63,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
+import nanmeanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmeanwd@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-nanmeanwd/tags). For example,
+
+```javascript
 import nanmeanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmeanwd@v0.1.1-deno/mod.js';
 ```
 
@@ -223,7 +228,7 @@ import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoul
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import nanmeanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmeanwd@v0.1.1-deno/mod.js';
+import nanmeanwd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-nanmeanwd@deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
