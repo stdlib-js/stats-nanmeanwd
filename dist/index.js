@@ -1,5 +1,5 @@
-"use strict";var i=function(t,e){return function(){return e||t((e={exports:{}}).exports,e),e.exports}};var n=i(function(q,r){
-var a=require('@stdlib/ndarray-dtypes/dist'),s=require('@stdlib/stats-base-ndarray-nanmeanwd/dist'),o=require('@stdlib/stats-base-ndarray-dnanmeanwd/dist'),d=require('@stdlib/stats-base-ndarray-snanmeanwd/dist'),u=require('@stdlib/ndarray-base-unary-reduce-strided1d-dispatch-factory/dist'),v=a("real_and_generic"),l=a("real_floating_point_and_generic"),p={output:"real_floating_point_and_generic",casting:"none"},_={types:["float64","float32"],fcns:[o,d],default:s},c=u(_,[v],l,p);r.exports=c
-});var f=n();module.exports=f;
+"use strict";var s=function(t,e){return function(){try{return e||t((e={exports:{}}).exports,e),e.exports}catch(i){throw (e=0, i)}};};var n=s(function(m,r){
+var a=require('@stdlib/ndarray-dtypes/dist'),o=require('@stdlib/stats-base-ndarray-nanmeanwd/dist'),d=require('@stdlib/stats-base-ndarray-dnanmeanwd/dist'),u=require('@stdlib/stats-base-ndarray-snanmeanwd/dist'),v=require('@stdlib/ndarray-base-unary-reduce-strided1d-dispatch-factory/dist'),l=a("real_and_generic"),p=a("real_floating_point_and_generic"),_={output:"real_floating_point_and_generic",casting:"none"},c={types:["float64","float32"],fcns:[d,u],default:o},f=v(c,[l],p,_);r.exports=f
+});var g=n();module.exports=g;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
